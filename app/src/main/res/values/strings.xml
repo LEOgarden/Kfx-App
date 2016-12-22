@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ProcAppActivity!</string>
+    <string name="app_name">北京市公安局治安管理总队便民服务平台</string>
+    <string name="app_company">北京科富兴科技有限公司</string>
+    <!-- fragment 导航   start -->
+    <string name="app_name1">便民服务平台</string>
+    <string name="main_home">首页</string>  
+    <string name="main_news">要闻</string>  
+    <string name="main_laws">政策法规</string>  
+    <string name="main_server">便民服务</string>
+    <!-- fragment 导航   end -->
+    <!-- 印章服务模块  start -->
+    <string name="msg_detail_title">新闻/通告</string>
+    <string name="service_seal_title">印章服务</string> 
+    <string name="laws_seal_title">印章相关政策法规</string> 
+    <string name="seal_record_title">通讯录</string> 
+    <string name="seal_valseal_title">印章验证</string> 
+    <string name="tongxunlu_description">提供刻制企业名称、地址、联系电话以及所在地区，并定位当前位置查询附近刻制企业</string> 
+    <string name="yanzhang_description">通过印章全称、印章编码、预留联系人电话来验证印章的合法性</string> 
+    <string name="nfc">NFC</string> 
+    <string name="seal_nfc_valseal_title">NFC印章验证</string> 
+    <!-- 印章服务模块  end -->
+    <!-- 新闻信息详情  start -->
+    <string name="news_content">新闻内容</string>
+    <string name="create_date">发布时间</string>
+    <string name="news_author">作者</string>
+    <string name="news_title">标题</string>
+    <!-- 新闻信息详情  end -->
+     <!-- 便民服务模块   main_service。xml  start -->
+    <string name="jixiu">机修</string>
+    <string name="yinzhang">印章</string>
+    <string name="joy">娱乐</string>
+    <string name="locale">户政</string>
+    <string name="zhijian">质检</string>
+    <string name="xiaofang">消防</string>
+    <string name="police">治安</string>
+    <string name="more">更多</string>
+    <string name="huzheng">户政</string>
+    <!-- 便民服务模块   main_service。xml   end -->
+    <!-- 公告       detail_announce_msg.xml  start -->
+    <string name="detail_announce_title">公告</string>
+    <string name="announce_time">2015-06-06</string>
+    <string name="announce_sender">" 淘宝网    "</string>
+    <!-- 公告       detail_announce_msg.xml  end -->
+     <string name="menu_settings">Settings</string>
+    <string name="title_alert">提示信息</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+</resources>

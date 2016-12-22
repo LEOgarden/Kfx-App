@@ -1,0 +1,176 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<provinces>
+    <province id="1" name="北京">
+        <city id="1001" name="东城区">
+            <company id="100101" name="北京东城华艺刻字社">
+                <id>100101</id>
+                <name>北京东城华艺刻字社</name>
+                <address>北京市东城区阳春街路15号</address>    
+                <telp>0106168168</telp>
+                <area>东城区</area>
+                <postion>116.42,39.93</postion>        
+            </company>
+            <company id="100102" name="北京市外文翻译服务公司">
+                <id>100102</id>
+                <name>北京市外文翻译服务公司</name>
+                <address>北京市东城区阳春街路14号</address>    
+                <telp>0106168169</telp>
+                <area>东城区</area>
+                <postion>116.41,39.93</postion>       
+            </company>
+            <company id="100103" name="北京巨亨刻字社">
+                <id>100102</id>
+                <name>北京巨亨刻字社</name>
+                <address>北京市东城区阳春街路13号</address>    
+                <telp>0106168165</telp>
+                <area>东城区</area>
+                 <postion>116.43,39.93</postion>          
+            </company>
+            <company id="100104" name="北京慧海翻译社">
+                <id>100104</id>
+                <name>北京慧海翻译社</name>
+                <address>北京市东城区阳春街路12号</address>    
+                <telp>0106168166</telp>
+                <area>东城区</area>
+                <postion>116.44,39.93</postion>           
+            </company>
+            <company id="100105" name="北京市外文翻译服务公司">
+                <id>100105</id>
+                <name>北京市外文翻译服务公司</name>
+                <address>北京市东城区阳春街路11号</address>    
+                <telp>0106168167</telp>
+                <postion>116.45,39.93</postion>           
+            </company>
+            <company id="100106" name="北京凯寅打字复印服务中心">
+                <id>100106</id>
+                <name>北京凯寅打字复印服务中心</name>
+                <address>北京市东城区阳春街路10号</address>    
+                <telp>0106168163</telp>
+                <area>东城区</area>
+                 <postion>116.46,39.93</postion>          
+            </company>        
+        </city>
+        <city id="1002" name="西城区">
+            <company id="100201" name="北京西城华艺刻字社">
+                <id>100201</id>
+                <name>北京西城华艺刻字社</name>
+                <address>北京市西城区长春街路10号</address>    
+                <telp>0106168153</telp>
+                <area>西城区</area>
+                <postion>116.37,39.92</postion>         
+            </company>
+            <company id="100202" name="北京西城华艺刻字社1">
+                <id>100202</id>
+                <name>北京西城华艺刻字社1</name>
+                <address>北京市西城区长春街路11号</address>    
+                <telp>0106168155</telp>
+                <area>西城区</area>
+                <postion>116.38,39.92</postion>     
+            </company>
+            <company id="100203" name="北京西城华艺刻字社2">
+                <id>100203</id>
+                <name>北京西城华艺刻字社2</name>
+                <address>北京市西城区长春街路12号</address>    
+                <telp>0106168156</telp>
+                <area>西城区</area>
+                <postion>116.36,39.92</postion>          
+            </company>
+            <company id="100204" name="北京西城华艺刻字社3">
+                <id>100204</id>
+                <name>北京西城华艺刻字社3</name>
+                <address>北京市西城区长春街路13号</address>    
+                <telp>0106168157</telp>
+                <area>西城区</area>
+                <postion>116.39,39.92</postion>          
+            </company>
+            <company id="100205" name="北京西城华艺刻字社4">
+                <id>100205</id>
+                <name>北京西城华艺刻字社4</name>
+                <address>北京市西城区长春街路14号</address>    
+                <telp>0106168158</telp>
+                <area>西城区</area>
+                <postion>116.35,39.92</postion>            
+            </company>
+        </city>
+        <city id="1003" name="朝阳区">
+            <company id="100301" name="朝阳刻制社">
+                <id>100301</id>
+                <name>朝阳刻制社</name>
+                <address>北京市朝阳区安春街路12号</address>    
+                <telp>0106168126</telp>
+                <area>朝阳区</area>
+                <postion>116.49,39.92</postion>          
+            </company>
+        </city>
+        <city id="1004" name="丰台区">
+            <company id="100401" name="丰台刻制社">
+                <id>100401</id>
+                <name>丰台刻制社</name>
+                <address>北京市丰台区广春街路12号</address>    
+                <telp>0106168196</telp>
+                <area>丰台区</area>
+                <postion>116.28,39.85</postion>          
+            </company>
+        </city>
+        <city id="1005" name="海淀区">
+            <company id="100501" name="海淀刻制社">
+                <id>100401</id>
+                <name>海淀刻制社</name>
+                <address>北京市海淀区丹春街路12号</address>    
+                <telp>0106168396</telp>
+                <area>海淀区</area>
+                <postion>116.33,39.95</postion>          
+            </company>
+        </city>
+    </province >
+    <province id="2" name="河南省">
+        <city id="2001" name="郑州市">
+            <company id="200101" name="郑州刻制社">
+                <id>200101</id>
+                <name>郑州刻制社</name>
+                <address>郑州市金水区长椿街28号</address>    
+                <telp>03716168394</telp> 
+                <area>金水区</area>
+                <postion>113.65,34.78</postion>          
+            </company>
+        </city>
+        <city id="2002" name="安阳市">
+            <company id="200201" name="安阳刻制社">
+                <id>200201</id>
+                <name>安阳刻制社</name>
+                <address>安阳市北关区东昌大道28号</address>    
+                <telp>03726168393</telp>
+                <area>北关区</area>
+                <postion>114.35,36.12</postion>         
+            </company>
+        </city>
+       	<city id="2003" name="开封市">
+            <company id="200301" name="开封刻制社">
+                <id>200301</id>
+                <name>开封刻制社</name>
+                <address>开封市鼓楼区东昌大道29号</address>    
+                <telp>03786168393</telp>
+                <area>鼓楼区</area>
+                <postion>114.35,34.78</postion>       
+            </company>
+        </city>
+       	<city id="2004" name="南阳市">
+            <company id="200401" name="南阳刻制社">
+                <id>200401</id>
+                <name>南阳刻制社</name>
+                <address>南阳市宛城区张衡路28号</address>    
+                <telp>03776168393</telp>
+                <area>宛城区</area>
+                <postion>112.55,33.02</postion>        
+            </company>
+            <company id="200402" name="南阳师院刻制社">
+                <id>200402</id>
+                <name>南阳师院刻制社</name>
+                <address>南阳市卧龙区长江路27号</address>    
+                <telp>03776168396</telp> 
+                <area>卧龙区</area>
+                <postion>112.53,32.98</postion>         
+            </company>
+        </city>
+    </province>  
+</provinces>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<helps>
+    <help id="1">
+       <question>如何进行验章</question> 
+       <answer>需要你先进行注册，登录后在进行验证！</answer>
+    </help>  
+    <help id="2">
+       <question>nfc验证印章显示无法启动nfc功能什么意思？</question> 
+       <answer>请确保你的设备是否支持nfc扫描，若是支持请把印章放在手机背面，进入系统nfc扫描部位，即可进行验章，若是再出现问题，请联系我们的工作人员！</answer>
+    </help>          
+</helps>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kfx.android"
+    android:versionCode="1"
+    android:versionName="1.1.3" >
+    <!-- 添加屏幕支持 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+    <uses-sdk android:minSdkVersion="14" />
+
+
+    <uses-feature android:name="android.hardware.nfc" android:required="true" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- 读取缓存 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <!-- 读取缓存 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- 使用网络功能所需权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" >
+    </uses-permission>
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <!-- 使用定位功能所需权限 -->
+    <!-- SDK离线地图和cache功能需要读写外部存储器 -->
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.READ_LOGS" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar">
+        <!-- 进入App缓存图片FirstMainActivity -->
+        <activity
+            android:name=".activity.home.setup.detail.CopyrightActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.home.setup.detail.FeedbackDetailActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.home.setup.detail.ChangePersonalInfoActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.home.setup.detail.ChangePasswordActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.home.setup.detail.FeedbackActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.home.setup.detail.FnIntroductionActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.home.setup.PersonalInfoActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.home.setup.AboutUsActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.home.setup.SupportActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.home.setup.SetupActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.menu.TabFragmentActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".activity.home.DetailActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".activity.home.SetupForHomeActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".activity.service.SealServiceMainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+        </activity>
+        <activity android:name=".activity.laws.SealLawsMainActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".activity.laws.SealLawsDetailActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".activity.service.seal.record.SealRecordMainActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".activity.service.seal.record.SealRecordDetailActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".activity.service.seal.record.map.MapLocationActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".activity.service.seal.record.map.MapNavigationActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name=".activity.service.seal.val.SealValSealActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.nfc.action.TECH_DISCOVERED" />
+            </intent-filter>
+            <meta-data
+                android:name="android.nfc.action.TECH_DISCOVERED"
+                android:resource="@xml/nfc_tech_filter" />
+        </activity>
+        <activity android:name=".activity.service.seal.val.SealUserLoginActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".activity.service.seal.val.SealUserRegisterActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".activity.service.seal.val.SealUserAgreementActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+        <!-- 百度地图服务START -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="jo70oltxycy0Vs3agcFAMVPM" />
+        <!-- 百度地图服务end -->
+    </application>
+</manifest>

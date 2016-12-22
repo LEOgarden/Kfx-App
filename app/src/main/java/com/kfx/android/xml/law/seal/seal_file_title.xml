@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<titles>
+    <title id="3001">
+       <name>印章治安管理制度</name>
+       <file_name>com/kfx/android/xml/law/seal/file/seal_security_management.txt</file_name>
+       <publish_group>国务院</publish_group>
+       <publish_time>1998-02-01</publish_time>       
+    </title> 
+    <title id="3002">
+       <name>印章治安管理办法</name>
+       <file_name>com/kfx/android/xml/law/seal/file/seal_management_raw.txt</file_name>
+       <publish_group>国务院</publish_group>
+       <publish_time>2014-03-015</publish_time>       
+    </title>  
+    <title id="3003">
+       <name>印章治安管理办法</name>
+       <file_name>com/kfx/android/xml/law/seal/file/seal_management_raw.txt</file_name>
+       <publish_group>国务院</publish_group>
+       <publish_time>2012-06-23</publish_time>       
+    </title> 
+    <title id="3004">
+       <name>伪造印章的法律规定</name>
+       <file_name>com/kfx/android/xml/law/seal/file/seal_management_raw.txt</file_name>
+       <publish_group>国务院</publish_group>
+       <publish_time>1996-12-24</publish_time>       
+    </title> 
+    <title id="3005">
+       <name>印章管理实务法律法规汇编</name>
+       <file_name>com/kfx/android/xml/law/seal/file/seal_management_raw.txt</file_name>
+       <publish_group>国务院</publish_group>
+       <publish_time>1999-04-05</publish_time>       
+    </title> 
+            
+</titles>
